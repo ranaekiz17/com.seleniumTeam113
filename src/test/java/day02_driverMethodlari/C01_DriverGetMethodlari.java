@@ -23,10 +23,10 @@ public class C01_DriverGetMethodlari {
         System.out.println(driver.getPageSource());
         // gidilen web sayfasinin kaynak kodlarini dondurur.
 
-        System.out.println(driver.getWindowHandle());
+        System.out.println(driver.getWindowHandle());  // 370D1303031BD4CF3AB4EFE33A4E2DC1
         // acilan her bir pencereye verilen unique hash code degeridir
 
-        System.out.println(driver.getWindowHandles());
+        System.out.println(driver.getWindowHandles()); //[370D1303031BD4CF3AB4EFE33A4E2DC1]
         // eger driver calısırken birden fazla pencere veya tab olusturduysa
         // acilan tum windows/tablar'in unique hash code larini bir set olarak dondurur
 
